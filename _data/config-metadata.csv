@@ -1,15 +1,35 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,DCTERMS.coverage,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-language,Language,,,DCTERMS.language,
-rightsstatement,,,,DCTERMS.rights,license
+source,Publication Name,FALSE,,,
+type,,FALSE,,,
+refid,Publication ID,FALSE,,,
+id,Exhibition ID,FALSE,,,
+exhibitionname,Exhibition Name,FALSE,,,
+location,Location,FALSE,,,
+,Description,FALSE,,,
+earliestdate,Start Date,FALSE,,,
+latestdate,End Date,FALSE,,,
+refid,Artist ID,FALSE,,,
+name,Preferred Name,TRUE,,,
+variantname,Variant Name,TRUE,,,
+languagegroup,Language Group,FALSE,,,
+refid,Language Group ID,FALSE,,,
+earliestdate,Date of Birth,FALSE,,,
+latestdate,Date of Death,FALSE,,,
+objectid,Artwork ID,FALSE,,,
+type,Work Type,FALSE,,,
+identifier,Work Type ref ID,FALSE,,,
+title,Title,TRUE,,,
+creator,Artist,TRUE,,,
+identifier,Artist ID,FALSE,,,
+,Material,FALSE,,,
+date,Date of Creation,FALSE,,,
+,Dimensions,FALSE,,,
+,Dimensions Type,FALSE,,,
+,Dimensions Unit,FALSE,,,
+rights,Rights,FALSE,,,
+description,Description,FALSE,,,
+,Provenance,FALSE,,,
+identifier,Aboriginal Community Art Centre cat. no.,FALSE,,,
+source,Publications,FALSE,,,
+location,Exhibited in,FALSE,,,
+identifier,Exhibit id,FALSE,,,
